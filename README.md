@@ -48,7 +48,7 @@
  简体中文
  </a>
    /
-  <a href="./README-ru.md">
+  <a href="README.md">
  Русский
  </a>
 </p>
