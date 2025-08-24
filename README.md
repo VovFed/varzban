@@ -13,46 +13,6 @@
     Унифицированное решение с графическим интерфейсом, устойчивое к цензуре, на базе <a href="https://github.com/XTLS/Xray-core">Xray</a>
 </p>
 
-<br/>
-<p align="center">
-    <a href="#">
-        <img src="https://img.shields.io/github/actions/workflow/status/gozargah/marzban/build.yml?style=flat-square" />
-    </a>
-    <a href="https://hub.docker.com/r/gozargah/marzban" target="_blank">
-        <img src="https://img.shields.io/docker/pulls/gozargah/marzban?style=flat-square&logo=docker" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/github/license/gozargah/marzban?style=flat-square" />
-    </a>
-    <a href="https://t.me/gozargah_marzban" target="_blank">
-        <img src="https://img.shields.io/badge/telegram-group-blue?style=flat-square&logo=telegram" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/badge/twitter-commiunity-blue?style=flat-square&logo=twitter" />
-    </a>
-    <a href="#">
-        <img src="https://img.shields.io/github/stars/gozargah/marzban?style=social" />
-    </a>
-</p>
-
-<p align="center">
- <a href="./README.md">
- English
- </a>
- /
- <a href="./README-fa.md">
- فارسی
- </a>
-  /
-  <a href="./README-zh-cn.md">
- 简体中文
- </a>
-   /
-  <a href="README.md">
- Русский
- </a>
-</p>
-
 <p align="center">
   <a href="https://github.com/gozargah/marzban" target="_blank" rel="noopener noreferrer" >
     <img src="https://github.com/Gozargah/Marzban-docs/raw/master/screenshots/preview.png" alt="Marzban screenshots" width="600" height="auto">
@@ -109,18 +69,18 @@ Marzban удобен в использовании, многофункциона
 Установка Marzban с базой данных SQLite (по умолчанию):
 
 ```bash
-sudo bash -c "$(curl -sL https://github.com/Gozargah/Marzban-scripts/raw/master/marzban.sh)" @ install
+sudo bash -c "$(curl -sL https://github.com/VovFed/varzban/raw/master/marzban.sh)" @ install
 ```
 
 Установка Marzban с базой данных MySQL:
 
 ```bash
-sudo bash -c "$(curl -sL https://github.com/Gozargah/Marzban-scripts/raw/master/marzban.sh)" @ install --database mysql
+sudo bash -c "$(curl -sL https://github.com/VovFed/varzban/raw/master/marzban.sh)" @ install --database mysql
 ```
 
 Установка Marzban с базой данных MariaDB:
 ```bash
-sudo bash -c "$(curl -sL https://github.com/Gozargah/Marzban-scripts/raw/master/marzban.sh)" @ install --database mariadb
+sudo bash -c "$(curl -sL https://github.com/VovFed/varzban/raw/master/marzban.sh)" @ install --database mariadb
 ```
 
 Когда установка будет завершена:
@@ -354,7 +314,7 @@ Marzban поставляется с встроенным ботом Telegram, к
 Установка последней версии Marzban:
 
 ```bash
-sudo bash -c "$(curl -sL https://github.com/Gozargah/Marzban-scripts/raw/master/marzban.sh)" @ install-script
+sudo bash -c "$(curl -sL https://github.com/VovFed/varzban/raw/master/marzban.sh)" @ install-script
 ```
 
 Настройка сервиса резервного копирования:
