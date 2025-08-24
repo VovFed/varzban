@@ -73,9 +73,7 @@
 - [Marzban CLI](#marzban-cli)
 - [Marzban Node](#marzban-node)
 - [Webhook уведомления](#webhook-уведомления)
-- [Поддержка](#поддержка)
-- [Лицензия](#лицензия)
-- [Участники](#участники)
+
 
 # Введение
 
@@ -415,37 +413,3 @@ Body:
 ```
 
 Различные типы действий: `user_created`, `user_updated`, `user_deleted`, `user_limited`, `user_expired`, `user_disabled`, `user_enabled`
-
-# Поддержка
-
-Если вы нашли Marzban полезным и хотели бы поддержать его развитие, вы можете сделать пожертвование в одной из следующих криптовалютных сетей:
-
-- TRON network (TRC20): `TX8kJoDcowQPBFTYHAJR36GyoUKP1Xwzkb`
-- ETH, BNB, MATIC network (ERC20, BEP20): `0xFdc9ad32454FA4fc4733270FCc12ddBFb68b83F7`
-- Bitcoin network: `bc1qpys2nefgsjjgae3g3gqy9crsv3h3rm96tlkz0v`
-- Dogecoin network: `DJAocBAu8y6LwhDKUktLAyzV8xyoFeHH6R`
-- TON network: `EQAVf-7hAXHlF-jmrKE44oBwN7HGQFVBLAtrOsev5K4qR4P8`
-
-Спасибо за поддержку!
-
-# Лицензия
-
-Сделано в [Unknown!] и опубликовано под [AGPL-3.0](./LICENSE).
-
-# Участники
-
-Мы ❤️‍🔥 участников проекта! Если вы хотите внести свой вклад, пожалуйста, ознакомьтесь с нашим [Contributing Guidelines](CONTRIBUTING.md) и не стесняйтесь отправлять запросы на исправление ошибок или сообщить о проблеме. Мы также приглашаем вас присоединиться к нашей группе [Telegram](https://t.me/gozargah_marzban) для получения поддержки.
-
-Проверьте [open issues](https://github.com/gozargah/marzban/issues), чтобы помочь развитию этого проекта.
-
-<p align="center">
-Спасибо всем участникам, благодаря которым Marzban становится лучше:
-</p>
-<p align="center">
-<a href="https://github.com/Gozargah/Marzban/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Gozargah/Marzban" />
-</a>
-</p>
-<p align="center">
-  Made with <a rel="noopener noreferrer" target="_blank" href="https://contrib.rocks">contrib.rocks</a>
-</p>
