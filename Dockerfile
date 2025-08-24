@@ -8,7 +8,7 @@ WORKDIR /code
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends build-essential curl unzip gcc python3-dev libpq-dev \
-    && curl -L https://github.com/VovFed/varzban/raw/master/install_latest_xray.sh | bash \
+    && curl -L https://raw.githubusercontent.com/VovFed/varzban/refs/heads/main/install_latest_xray.sh | bash \
     && rm -rf /var/lib/apt/lists/*
 
 COPY ./requirements.txt /code/
