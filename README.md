@@ -69,18 +69,18 @@ Marzban удобен в использовании, многофункциона
 Установка Marzban с базой данных SQLite (по умолчанию):
 
 ```bash
-sudo bash -c "$(curl -sL https://github.com/VovFed/varzban/raw/master/marzban.sh)" @ install
+sudo bash -c "$(curl -sL https://raw.githubusercontent.com/VovFed/varzban/refs/heads/main/marzban.sh)" @ install
 ```
 
 Установка Marzban с базой данных MySQL:
 
 ```bash
-sudo bash -c "$(curl -sL https://github.com/VovFed/varzban/raw/master/marzban.sh)" @ install --database mysql
+sudo bash -c "$(curl -sL https://raw.githubusercontent.com/VovFed/varzban/refs/heads/main/marzban.sh)" @ install --database mysql
 ```
 
 Установка Marzban с базой данных MariaDB:
 ```bash
-sudo bash -c "$(curl -sL https://github.com/VovFed/varzban/raw/master/marzban.sh)" @ install --database mariadb
+sudo bash -c "$(curl -sL https://raw.githubusercontent.com/VovFed/varzban/refs/heads/main/marzban.sh)" @ install --database mariadb
 ```
 
 Когда установка будет завершена:
@@ -314,7 +314,7 @@ Marzban поставляется с встроенным ботом Telegram, к
 Установка последней версии Marzban:
 
 ```bash
-sudo bash -c "$(curl -sL https://github.com/VovFed/varzban/raw/master/marzban.sh)" @ install-script
+sudo bash -c "$(curl -sL https://raw.githubusercontent.com/VovFed/varzban/refs/heads/main/marzban.sh)" @ install-script
 ```
 
 Настройка сервиса резервного копирования:
