@@ -124,7 +124,7 @@ detect_compose() {
 
 install_marzban_script() {
     FETCH_REPO="VovFed/varzban"
-    SCRIPT_URL="https://github.com/$FETCH_REPO/raw/master/marzban.sh"
+    SCRIPT_URL="https://raw.githubusercontent.com/$FETCH_REPO/refs/heads/main/marzban.sh"
     colorized_echo blue "Installing marzban script"
     curl -sSL $SCRIPT_URL | install -m 755 /dev/stdin /usr/local/bin/marzban
     colorized_echo green "marzban script installed successfully"
@@ -1473,7 +1473,7 @@ update_command() {
 
 update_marzban_script() {
     FETCH_REPO="VovFed/varzban"
-    SCRIPT_URL="https://github.com/$FETCH_REPO/raw/master/marzban.sh"
+    SCRIPT_URL="https://raw.githubusercontent.com/$FETCH_REPO/refs/heads/main/marzban.sh"
     colorized_echo blue "Updating marzban script"
     curl -sSL $SCRIPT_URL | install -m 755 /dev/stdin /usr/local/bin/marzban
     colorized_echo green "marzban script updated successfully"
